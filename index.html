@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Captain Planet!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Captain Planet</h1>
+        <hr />
+        
+        <button type="button" id="play_music">
+            <i class="fa fa-music"></i> Play Theme
+        </button>
+        <button type="button" id="pause_music">
+            <i class="fa fa-pause"></i>
+            Pause Song
+        </button>
+    </header>
+
+    <div class="title_div"><strong>Superpowers - Change Sizes!</strong></div>
+    <div class="main_div">
+        <button type="button" id="normal">Normal</button>
+            
+        <button type="button" id="grow"><i class="fa fa-plus"></i> Grow</button>
+
+        <button type="button" id="shrink"><i class="fa fa-minus"></i> Shrink</button>
+    </div>
+
+    <div class="title_div"><strong>Superpowers - Invisibility!</strong></div>
+    <div class="main_div">
+        <button type="button" id="visible"><i class="fa fa-eye"></i> Visible</button>
+        <button type="button" id="invisible"><i class="fa fa-eye-slash"></i> Invisible</button>
+    </div>
+
+    <div class="title_div"><strong>Superpowers - Stretch!</strong></div>
+    <div class="main_div">
+        <button type="button" id="normal-st"><i class="fa fa-compress-alt"></i> Normal</button>
+        <button type="button" id="stretch"><i class="fa fa-expand-arrows-alt"></i> Stretch</button>
+    </div>
+
+    <div class="title_div"><strong>Move Controls</strong></div>
+    <div class="main_div">
+        <button type="button" id="upbtn"><i class="fa fa-arrow-up"></i> Up</button>
+        <button type="button" id="downbtn"><i class="fa fa-arrow-down"></i> Down</button>
+        <button type="button" id="leftbtn"><i class="fa fa-arrow-left"></i> Left</button>
+        <button type="button" id="rightbtn"><i class="fa fa-arrow-right"></i> Right</button>
+        <button type="button" id="goplanetbtn"><i class="fa fa-comment"></i> Go Planet!</button>
+    </div>
+    <img id="captainImg" src="./img/cartoon.png" alt="Captain Planet" width="400px"/>
+   <script src="main.js" type="text/javascript"></script>
+
+
+</body>
+</html>

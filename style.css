@@ -1,0 +1,75 @@
+header{
+    width: 60%;
+    height: 175px;
+    text-align: center;
+    background-color: lightskyblue;
+    margin: 0 20% 40px 20%;
+}
+
+h1{
+    font-size: 40px;
+    padding: 3% 0 3% 0;
+}
+
+button{
+    width: 110px;
+    height: 35px;
+    margin: 15px 0.5% 2% 0;
+    border-radius: 5%;
+    border: none;
+}
+
+hr{
+    border: 1px grey dashed;
+}
+#play_music{
+    background-color: orange;
+}
+#play_music:hover, #pause_music:hover, #grow:hover, #normal:hover, #shrink:hover{
+    box-shadow: 2px 2px grey;
+}
+
+#pause_music{
+    background-color: whitesmoke;
+}
+
+
+.title_div{
+    width: 25%;
+    padding: 10px;
+    margin: 0 90px 0 20%;
+    border: 1px solid lightgray;
+    border-bottom: none;
+    background-color: lightgrey;
+    float: left;
+}
+.main_div{
+    width: 25%;
+    padding: 10px;
+    margin: 0 90px 0 20%;
+    border: 1px solid lightgray;
+    text-align: center;
+    float: left;
+}
+#normal{
+    width: 90px;
+    background-color: black;
+    color: white;
+}
+
+#grow{
+    width: 90px;
+    background-color: red;
+    color: white;
+}
+
+#shrink{
+    width: 90px;
+    background-color: blue;
+    color: white;
+}
+
+img{
+    position: relative;
+}
+
